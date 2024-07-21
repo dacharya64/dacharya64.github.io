@@ -86,22 +86,22 @@
             "abstract": "This paper presents a preliminary exploration of games as sites of collaborative game world creation. By this, we mean the processes in games by which players take on a dual role as player within the game world and maker of the game world, sharing authorship of the world and its design with the game's designers and other players. We explore several examples of games featuring game world co-creation at the core of their gameplay, and use this to create a model for understanding the commonalities across these various games and how they facilitate this collaborative process. By examining similar structures in the design and play of these games, we can better understand how to identify this process in existing games and how to better create games that allow for this in the future."
         }
     ]
-    </script> 
+</script> 
     
-    <h1 class="h1">Publications</h1>
-    <section class="publications">
-        <!-- <div class="grid grid-cols-3 gap-8"> -->
-        {#each publications as publication}
-            <!-- <div class="card"> -->
-                <header class="card-header"><h4 class="h4">{publication.name}</h4><p>{publication.authors}</p></header>
-                <Accordion>
-                    <AccordionItem>
-                        <svelte:fragment slot="summary">Abstract</svelte:fragment>
-                        <svelte:fragment slot="content">{publication.abstract}</svelte:fragment>
-                    </AccordionItem>
-                </Accordion>
-                <section class="p-4"><p></p></section>
-            <!-- </div> -->
-        {/each}
-    <!-- </div> -->
-    </section>
+
+<section class="publications">
+    <div class="grid grid-cols-1 gap-8">
+    {#each publications as publication}
+        <div class="article">
+            <h4 class="h4">{publication.name}</h4>
+            <p>{publication.authors}</p>
+            <Accordion>
+                <AccordionItem>
+                    <svelte:fragment slot="summary">Abstract</svelte:fragment>
+                    <svelte:fragment slot="content">{publication.abstract}</svelte:fragment>
+                </AccordionItem>
+            </Accordion>
+        </div>
+    {/each}
+</div>
+</section>
