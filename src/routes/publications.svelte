@@ -100,22 +100,14 @@
 <section class="publications">
 	{#each publications as publication}
 		<div class="list-dl">
-			<div>
+			<div class="article">
 				<span class="flex-auto">
 					<dt><h4 class="h4">{publication.name}</h4></dt>
 					<dd>{publication.authors}</dd>
+					<dd><em>{publication.venue}</em>, {publication.year}</dd>
 				</span>
-				<span class="abstract">
-					<Accordion>
-						<AccordionItem>
-							<svelte:fragment slot="summary">
-								<button type="button" class="btn variant-filled"><span><i class="fa-regular fa-book-open"></i></span><span>Abstract</span></button>
-							</svelte:fragment>
-							<svelte:fragment slot="content">
-								{publication.abstract}
-							</svelte:fragment>
-						</AccordionItem>
-					</Accordion>
+				<span>
+					<a href={publication.url} type="button" class="btn-icon variant-filled"><span><i class="fa-regular fa-file-pdf"></i></span></a>
 				</span>
 			</div>
 		</div>
