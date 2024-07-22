@@ -17,8 +17,7 @@
 			name: 'Warmer',
 			role: 'Unity Developer',
 			slug: 'warmer.png',
-			description:
-				'An NSF-funded game about climate change and human impacts on the environment using real environmental models.',
+			description: 'An NSF-funded game about climate change and human impacts on the environment using real environmental models.',
 			url: 'https://github.com/dacharya64/UCSCClimateGame'
 		},
 		{
@@ -28,8 +27,7 @@
 			role: 'Researcher, Unity Developer',
 			name: 'Spatial Cognition in VR',
 			slug: 'vr.jpg',
-			description:
-				'Studying the effects of teleporting in virtual reality using triangle completion tasks in Unity enviroments.',
+			description: 'Studying the effects of teleporting in virtual reality using triangle completion tasks in Unity enviroments.',
 			url: 'https://dr.lib.iastate.edu/entities/publication/b2750a5d-70af-4fd3-81ce-69c2f338effd'
 		},
 		{
@@ -39,8 +37,7 @@
 			role: 'Researcher, Mentor',
 			name: 'VR / Physical Escape Room',
 			slug: 'escape.png',
-			description:
-				"An escape room with asymmetrical puzzle-solving in physical and virtual reality spaces. Made for UCSC's Science Internship Program.",
+			description: "An escape room with asymmetrical puzzle-solving in physical and virtual reality spaces. Made for UCSC's Science Internship Program.",
 			url: 'https://www.devi-a.com/CompExamPortfolio/escaperoom.html'
 		},
 		{
@@ -50,8 +47,7 @@
 			name: 'Terasology: Light and Shadow',
 			role: 'Java Developer',
 			slug: 'terasology.jpg',
-			description:
-				'A capture-the-flag game mode made for open-source voxel game Terasology, made as part of Google Summer of Code.',
+			description: 'A capture-the-flag game mode made for open-source voxel game Terasology, made as part of Google Summer of Code.',
 			url: 'https://dacharya64.postach.io/post/gsoc-final-project-wrapup'
 		},
 		{
@@ -61,8 +57,7 @@
 			name: 'Fusion Galaxy',
 			role: 'Lead Artist',
 			slug: 'cl.jpg',
-			description:
-				'A mobile game about collecting and crafting elements together to discover the universe, made with the Massachusetts Digital Games Institute.',
+			description: 'A mobile game about collecting and crafting elements together to discover the universe, made with the Massachusetts Digital Games Institute.',
 			url: 'https://apps.apple.com/us/app/fusion-galaxy/id999077925#?platform=ipad'
 		},
 		{
@@ -72,8 +67,7 @@
 			name: 'Red Survivor',
 			role: 'UI Artist',
 			slug: 'rs.jpg',
-			description:
-				'A strategy game where the player fights to survive against killer robots in a war-torn Russia. Made with a team at Mustachio Games. Shown at Boston Festival of Indie Games, 2014.',
+			description: 'A strategy game where the player fights to survive against killer robots in a war-torn Russia. Made with a team at Mustachio Games. Shown at Boston Festival of Indie Games, 2014.',
 			url: 'https://mustachiogames.itch.io/red-survivor'
 		},
 		{
@@ -83,8 +77,7 @@
 			name: 'The Abyss and The Ark',
 			role: 'Writer',
 			slug: 'abyss.jpg',
-			description:
-				'Authored and co-authored several interactive fiction games, including The Abyss--a surreal exploration of the mind--and The Ark--a puzzle game set aboard a derelict spaceship.',
+			description: 'Authored and co-authored several interactive fiction games, including The Abyss--a surreal exploration of the mind--and The Ark--a puzzle game set aboard a derelict spaceship.',
 			url: 'https://textadventures.co.uk/games/view/ob1-nceir0a6dpocknuxyw/the-abyss'
 		},
 		{
@@ -94,8 +87,7 @@
 			name: 'sub-Q Magazine',
 			role: 'Editor',
 			slug: 'subq.jpg',
-			description:
-				'Online literary magazine for interactive fiction fantasy, science fiction, and horror. Reviewed submissions, edited pieces, and interviewed authors.',
+			description: 'Online literary magazine for interactive fiction fantasy, science fiction, and horror. Reviewed submissions, edited pieces, and interviewed authors.',
 			url: 'https://sub-q.com/'
 		},
 		{
@@ -105,8 +97,7 @@
 			name: 'On Equal Terms',
 			role: 'Research Assistant',
 			slug: 'equalterms.jpg',
-			description:
-				"Developed interactive digital exhibit about the experiences of tradeswomen with the Women's Studies Research Center at Brandeis University.",
+			description: "Developed interactive digital exhibit about the experiences of tradeswomen with the Women's Studies Research Center at Brandeis University.",
 			url: 'https://onequalter.ms/'
 		},
 		{
@@ -116,8 +107,7 @@
 			name: 'Films and animation',
 			role: 'Cinematographer, animator, editor',
 			slug: 'animation.gif',
-			description:
-				'Created short films and animations as part of the CET study abroad program in Prague and the Getz Media Lab at Brandeis University.',
+			description: 'Created short films and animations as part of the CET study abroad program in Prague and the Getz Media Lab at Brandeis University.',
 			url: 'https://vimeo.com/showcase/5756343'
 		}
 	];

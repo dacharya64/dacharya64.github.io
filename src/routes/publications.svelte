@@ -5,8 +5,7 @@
 		{
 			id: 'shoelace',
 			name: 'Shoelace: A Storytelling Assistant for GUMSHOE One-2-One',
-			authors:
-				'Devi Acharya, Jack Kelly, William Tate, Maxwell Joslyn, Michael Mateas, Noah Wardrip-Fruin',
+			authors: 'Devi Acharya, Jack Kelly, William Tate, Maxwell Joslyn, Michael Mateas, Noah Wardrip-Fruin',
 			venue: 'International Conference on the Foundations of Digital Games',
 			year: '2023',
 			award: 'Best Paper Award',
@@ -57,8 +56,7 @@
 		{
 			id: 'ttrpg_PCG',
 			name: 'Tabletop Roleplaying Games as Procedural Content Generators',
-			authors:
-				'Matthew Guzdial, Devi Acharya, Max Kreminski, Michael Cook, Mirjam Eladhari, Antonios Liapis, Anne Sullivan',
+			authors: 'Matthew Guzdial, Devi Acharya, Max Kreminski, Michael Cook, Mirjam Eladhari, Antonios Liapis, Anne Sullivan',
 			venue: 'International Conference on the Foundations of Digital Games',
 			year: '2020',
 			url: 'https://www.devi-a.com/papers/ttrpg_pcg.pdf',
@@ -68,8 +66,7 @@
 		{
 			id: 'spatial_cognitive',
 			name: 'Spatial cognitive implications of teleporting through virtual environments',
-			authors:
-				'Lucia A Cherep, Alex F Lim, Jonathan W Kelly, Devi Acharya, Alfredo Velasco, Emanuel Bustamante, Alec G Ostrander, and Stephen B Gilbert',
+			authors: 'Lucia A Cherep, Alex F Lim, Jonathan W Kelly, Devi Acharya, Alfredo Velasco, Emanuel Bustamante, Alec G Ostrander, and Stephen B Gilbert',
 			venue: 'Journal of Experimental Psychology: Applied',
 			year: '2020',
 			award: 'Raymond S. Nickerson Award for best paper',
@@ -80,10 +77,8 @@
 		{
 			id: 'cozy_mystery',
 			name: 'Cozy mystery construction kit: Prototyping toward an AI-assisted collaborative storytelling mystery game',
-			authors:
-				'Max Kreminski, Devi Acharya, Nick Junius, Elisabeth Oliver, Kate Compton, Melanie Dickinson, Cyril Focht, Stacey Mason, Stella Mazeika, and Noah Wardrip-Fruin',
-			venue:
-				'Procedural Generation Workshop, International Converence on the Foundations of Digital Games',
+			authors: 'Max Kreminski, Devi Acharya, Nick Junius, Elisabeth Oliver, Kate Compton, Melanie Dickinson, Cyril Focht, Stacey Mason, Stella Mazeika, and Noah Wardrip-Fruin',
+			venue: 'Procedural Generation Workshop, International Converence on the Foundations of Digital Games',
 			year: '2019',
 			url: 'https://www.devi-a.com/papers/CozyMysteryConstructionKit.pdf',
 			abstract:
@@ -114,7 +109,7 @@
 					<Accordion>
 						<AccordionItem>
 							<svelte:fragment slot="summary">
-								<i class="fa-regular fa-book-open"></i>
+								<button type="button" class="btn-icon variant-filled"><i class="fa-regular fa-book-open"></i></button>
 							</svelte:fragment>
 							<svelte:fragment slot="content">
 								{publication.abstract}
