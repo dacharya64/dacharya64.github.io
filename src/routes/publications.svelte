@@ -109,7 +109,7 @@
 					<Accordion>
 						<AccordionItem>
 							<svelte:fragment slot="summary">
-								<button type="button" class="btn-icon variant-filled"><i class="fa-regular fa-book-open"></i></button>
+								<button type="button" class="btn variant-filled"><span><i class="fa-regular fa-book-open"></i></span><span>Abstract</span></button>
 							</svelte:fragment>
 							<svelte:fragment slot="content">
 								{publication.abstract}
