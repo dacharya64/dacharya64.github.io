@@ -114,6 +114,7 @@
 </script>
 
 <section class="projects">
+	<h1 class="h1">Projects</h1>
 	<div class="grid grid-cols-3 gap-8">
 		{#each projects as project}
 			{#if project.priority == true}

@@ -98,13 +98,17 @@
 </script>
 
 <section class="publications">
+	<h1 class="h1">Publications</h1>
 	{#each publications as publication}
 		<div class="list-dl">
 			<div class="article">
 				<span class="flex-auto">
 					<dt><h4 class="h4">{publication.name}</h4></dt>
 					<dd>{publication.authors}</dd>
-					<dd><em>{publication.venue}</em>, {publication.year}</dd>
+					<dd>
+						<em>{publication.venue}</em>
+						, {publication.year}
+					</dd>
 				</span>
 				<span>
 					<a href={publication.url} type="button" class="btn-icon variant-filled"><span><i class="fa-regular fa-file-pdf"></i></span></a>
