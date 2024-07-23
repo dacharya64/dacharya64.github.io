@@ -9,7 +9,7 @@
 	<div>
 		<h4 class="h4">
 			<strong>Devi Acharya</strong>
-			| AI in Games
+			| <i class="fa-solid fa-gears"></i> AI in Games
 		</h4>
 	</div>
 	<div><LightSwitch /></div>
