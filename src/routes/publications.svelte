@@ -106,12 +106,11 @@
 					<dt><h4 class="h4">{publication.name}</h4></dt>
 					<dd>{publication.authors}</dd>
 					<dd>
-						<em>{publication.venue}</em>
-						, {publication.year}
+						<em>{publication.venue}</em>, {publication.year}
 					</dd>
 				</span>
 				<span>
-					<a href={publication.url} type="button" class="btn-icon variant-filled"><span><i class="fa-regular fa-file-pdf"></i></span></a>
+					<a href={publication.url} target="blank" type="button" class="btn-icon variant-filled"><span><i class="fa-regular fa-file-pdf"></i></span></a>
 				</span>
 			</div>
 		</div>
