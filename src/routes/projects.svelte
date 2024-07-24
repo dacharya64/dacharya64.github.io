@@ -115,12 +115,15 @@
 
 <section class="projects">
 	<h1 class="h1">Projects</h1>
-	<div class="grid grid-cols-3 gap-8">
+	<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
 		{#each projects as project}
 			{#if project.priority == true}
-				<div class="card p-4 card-hover">
-					<h2>{project.name}</h2>
-					<p>{project.description}</p>
+				<div class="card card-hover">
+					<img src="/img/{project.slug}" class="rounded-lg w-full h-60 object-cover" />
+					<section class="p-6">
+						<h3 class="h3">{project.name}</h3>
+						<p>{project.description}</p>
+					</section>
 				</div>
 			{/if}
 		{/each}
