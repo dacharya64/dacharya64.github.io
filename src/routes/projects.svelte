@@ -1,14 +1,16 @@
-<script>
+<script lang="ts">
 	let projects = [
 		{
 			id: 'ttrpg',
 			priority: true,
 			tag: 'research',
-			name: 'Tabletop Roleplaying Game AI Assistant',
+			name: 'AI Assistant for Tabletop Roleplaying Games',
 			role: 'Lead Researcher, Developer',
 			slug: 'ttrpg.png',
 			description: 'A computational support tool for game masters of tabletop roleplaying games.',
-			url: 'https://www.devi-a.com/CompExamPortfolio/ttrpg.html'
+			url: 'https://www.devi-a.com/CompExamPortfolio/ttrpg.html',
+			github_url: 'https://github.com/dacharya64/FatalFrequenciesFrontend',
+			demo_url: 'https://www.devi-a.com/FatalFrequenciesFrontend'
 		},
 		{
 			id: 'warmer',
@@ -18,7 +20,8 @@
 			role: 'Unity Developer',
 			slug: 'warmer.png',
 			description: 'An NSF-funded game about climate change and human impacts on the environment using real environmental models.',
-			url: 'https://github.com/dacharya64/UCSCClimateGame'
+			url: 'https://github.com/dacharya64/UCSCClimateGame',
+			demo_url: 'https://www.devi-a.com/ClimateGamePlayable/'
 		},
 		{
 			id: 'vr',
@@ -31,8 +34,8 @@
 			url: 'https://dr.lib.iastate.edu/entities/publication/b2750a5d-70af-4fd3-81ce-69c2f338effd'
 		},
 		{
-			id: 'escape_room',
-			priority: false,
+			id: 'escaperoom',
+			priority: true,
 			tag: 'research',
 			role: 'Researcher, Mentor',
 			name: 'VR / Physical Escape Room',
@@ -111,6 +114,16 @@
 			url: 'https://vimeo.com/showcase/5756343'
 		}
 	];
+
+	import { createEventDispatcher } from 'svelte';
+
+	const dispatch = createEventDispatcher();
+
+	function sayHello(id: string) {
+		dispatch('message', {
+			text: id
+		});
+	}
 </script>
 
 <section class="projects">
@@ -118,12 +131,26 @@
 	<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
 		{#each projects as project}
 			{#if project.priority == true}
-				<div class="card card-hover">
+				<div class="card card-hover flex flex-col">
 					<img src="/img/{project.slug}" class="rounded-lg w-full h-60 object-cover" />
 					<section class="p-6">
 						<h3 class="h3">{project.name}</h3>
 						<p>{project.description}</p>
 					</section>
+					<footer class="card-footer mt-auto">
+						<div class="cardbuttoncontainer">
+							<div>
+								<!-- <button on:click={() => }> Read More </button> -->
+								<button on:click={() => sayHello(project.id)} type="button" class="btn variant-filled cardbutton">Read More</button>
+							</div>
+							<br />
+							<div>
+								{#if project.demo_url}
+									<a href={project.demo_url} type="button" class="btn variant-filled cardbutton">Demo</a>
+								{/if}
+							</div>
+						</div>
+					</footer>
 				</div>
 			{/if}
 		{/each}

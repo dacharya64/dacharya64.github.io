@@ -1,8 +1,15 @@
 <script>
-	import Publications from './publications.svelte';
-	import Projects from './projects.svelte';
-	import Bio from './bio.svelte';
 	import { LightSwitch } from '@skeletonlabs/skeleton';
+	import Landing from './landing.svelte';
+	import EscapeRoom from './escaperoom.svelte';
+	let selectedPage = 'landing';
+
+	/**
+	 * @param {{ detail: { text: any; }; }} event
+	 */
+	function handleMessage(event) {
+		selectedPage = event.detail.text;
+	}
 </script>
 
 <!-- Header -->
@@ -21,9 +28,11 @@
 
 <!-- Main body -->
 <section class="homepage">
-	<Bio />
-	<Projects />
-	<Publications />
+	{#if selectedPage == 'escaperoom'}
+		<EscapeRoom />
+	{:else}
+		<Landing on:message={handleMessage} />
+	{/if}
 </section>
 
 <!-- Contact me button -->
