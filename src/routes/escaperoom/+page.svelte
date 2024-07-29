@@ -48,7 +48,7 @@
 		different times. The escape room consisted of the following sequence of puzzles (photos below the puzzle descriptions):
 	</p>
 
-	<ul class="list-disc list-outside">
+	<ul>
 		<li>
 			<strong>Maze puzzle</strong> -- the players must work together to solve a maze, guiding a cube in the virtual environment through a maze on the wall. The player in VR can only see the maze’s horizontal
 			walls. The player in the physical space can see a poster of the same maze, but can only see the vertical walls of the maze. The player in the physical space can move the cube through the maze using
@@ -102,7 +102,7 @@
 		degree.
 	</p>
 
-	<ul class="list-disc list-outside">
+	<ul>
 		<li>
 			<strong>Theme</strong> -- In thinking up possible themes for the game, we played around with the idea of making the players conspirators working on a heist together. The flashing lights and sounds
 			puzzle (the last puzzle of the room) would resemble alarms going off once the player has succeeded in their task, and imply a sense of urgency. This is also why some of the clue parts are hidden
@@ -152,7 +152,7 @@
 	</p>
 
 	<h2 class="h2 pageheading">Works Cited</h2>
-	<ul class="list-disc list-outside">
+	<ul>
 		<li>
 			Nicholson, S. (2016a). Ask why: Creating a better player experience through environmental storytelling and consistency in escape room design. Meaningful Play. Retrieved from
 			http://scottnicholson.com/pubs/askwhy

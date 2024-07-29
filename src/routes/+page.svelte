@@ -1,15 +1,6 @@
 <script>
 	import { LightSwitch } from '@skeletonlabs/skeleton';
 	import Landing from './landing.svelte';
-	import EscapeRoom from './escaperoom/+page.svelte';
-	let selectedPage = 'landing';
-
-	/**
-	 * @param {{ detail: { text: any; }; }} event
-	 */
-	function changePage(event) {
-		selectedPage = event.detail.text;
-	}
 </script>
 
 <!-- Header -->

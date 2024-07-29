@@ -1,22 +1,9 @@
-<script lang="ts">
+<script>
 	import Publications from './publications.svelte';
 	import Projects from './projects.svelte';
 	import Bio from './bio.svelte';
-
-	import { createEventDispatcher } from 'svelte';
-
-	const dispatch = createEventDispatcher();
-
-	/**
-	 * @param {{ detail: { text: any; }; }} event
-	 */
-	function passProjectID(event: { detail: { text: any } }) {
-		dispatch('message', {
-			text: event.detail.text
-		});
-	}
 </script>
 
 <Bio />
-<Projects on:message={passProjectID} />
+<Projects />
 <Publications />
