@@ -10,7 +10,7 @@
 	/**
 	 * @param {{ detail: { text: any; }; }} event
 	 */
-	function handleMessage(event: { detail: { text: any } }) {
+	function passProjectID(event: { detail: { text: any } }) {
 		dispatch('message', {
 			text: event.detail.text
 		});
@@ -18,5 +18,5 @@
 </script>
 
 <Bio />
-<Projects on:message={handleMessage} />
+<Projects on:message={passProjectID} />
 <Publications />

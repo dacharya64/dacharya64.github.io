@@ -7,7 +7,7 @@
 	/**
 	 * @param {{ detail: { text: any; }; }} event
 	 */
-	function handleMessage(event) {
+	function changePage(event) {
 		selectedPage = event.detail.text;
 	}
 </script>
@@ -29,9 +29,9 @@
 <!-- Main body -->
 <section class="homepage">
 	{#if selectedPage == 'escaperoom'}
-		<EscapeRoom on:message={handleMessage} />
+		<EscapeRoom on:message={changePage} />
 	{:else}
-		<Landing on:message={handleMessage} />
+		<Landing on:message={changePage} />
 	{/if}
 </section>
 

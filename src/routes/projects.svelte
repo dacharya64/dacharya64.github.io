@@ -132,7 +132,7 @@
 		{#each projects as project}
 			{#if project.priority == true}
 				<div class="card card-hover flex flex-col">
-					<img src="/img/{project.slug}" class="rounded-lg w-full h-60 object-cover" />
+					<img src="/img/{project.slug}" class="rounded-lg w-full h-60 object-cover" alt="Thumbnail for project {project.name}" />
 					<section class="p-6">
 						<h3 class="h3">{project.name}</h3>
 						<p>{project.description}</p>
