@@ -1,7 +1,7 @@
 <script>
 	import { LightSwitch } from '@skeletonlabs/skeleton';
 	import Landing from './landing.svelte';
-	import EscapeRoom from './escaperoom.svelte';
+	import EscapeRoom from './escaperoom/+page.svelte';
 	let selectedPage = 'landing';
 
 	/**
@@ -28,11 +28,7 @@
 
 <!-- Main body -->
 <section class="homepage">
-	{#if selectedPage == 'escaperoom'}
-		<EscapeRoom on:message={changePage} />
-	{:else}
-		<Landing on:message={changePage} />
-	{/if}
+	<Landing />
 </section>
 
 <!-- Contact me button -->

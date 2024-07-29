@@ -6,7 +6,7 @@
 			tag: 'research',
 			name: 'AI Assistant for Tabletop Roleplaying Games',
 			role: 'Lead Researcher, Developer',
-			slug: 'ttrpg.png',
+			slug: 'ttrpg2.png',
 			description: 'A computational support tool for game masters of tabletop roleplaying games.',
 			url: 'https://www.devi-a.com/CompExamPortfolio/ttrpg.html',
 			github_url: 'https://github.com/dacharya64/FatalFrequenciesFrontend',
@@ -25,7 +25,7 @@
 		},
 		{
 			id: 'vr',
-			priority: true,
+			priority: false,
 			tag: 'research',
 			role: 'Researcher, Unity Developer',
 			name: 'Spatial Cognition in VR',
@@ -140,8 +140,7 @@
 					<footer class="card-footer mt-auto">
 						<div class="cardbuttoncontainer">
 							<div>
-								<!-- <button on:click={() => }> Read More </button> -->
-								<button on:click={() => returnProjectID(project.id)} type="button" class="btn variant-filled cardbutton">Read More</button>
+								<a href="./{project.id}" type="button" class="btn variant-filled cardbutton">Read More</a>
 							</div>
 							<br />
 							<div>
