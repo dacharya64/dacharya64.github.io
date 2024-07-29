@@ -119,7 +119,7 @@
 
 	const dispatch = createEventDispatcher();
 
-	function sayHello(id: string) {
+	function returnProjectID(id: string) {
 		dispatch('message', {
 			text: id
 		});
@@ -141,7 +141,7 @@
 						<div class="cardbuttoncontainer">
 							<div>
 								<!-- <button on:click={() => }> Read More </button> -->
-								<button on:click={() => sayHello(project.id)} type="button" class="btn variant-filled cardbutton">Read More</button>
+								<button on:click={() => returnProjectID(project.id)} type="button" class="btn variant-filled cardbutton">Read More</button>
 							</div>
 							<br />
 							<div>

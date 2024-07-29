@@ -1,3 +1,17 @@
+<script>
+	import { createEventDispatcher } from 'svelte';
+
+	const dispatch = createEventDispatcher();
+
+	function returnToLanding() {
+		dispatch('message', {
+			text: 'landing'
+		});
+	}
+</script>
+
+<button on:click={() => returnToLanding()} type="button" class="btn variant-filled cardbutton">Back</button>
+
 <h1 class="h1">Science Internship Program: Virtual Reality / Physical Escape Room</h1>
 <p>Researching how to create different collaborative dynamics in escape rooms through designing a combined physical and virtual escape room.</p>
 

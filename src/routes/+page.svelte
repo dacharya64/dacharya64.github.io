@@ -29,7 +29,7 @@
 <!-- Main body -->
 <section class="homepage">
 	{#if selectedPage == 'escaperoom'}
-		<EscapeRoom />
+		<EscapeRoom on:message={handleMessage} />
 	{:else}
 		<Landing on:message={handleMessage} />
 	{/if}
