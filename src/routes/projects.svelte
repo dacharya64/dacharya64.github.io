@@ -4,10 +4,10 @@
 			id: 'ttrpg',
 			priority: true,
 			tag: 'research',
-			name: 'AI Assistant for Tabletop Roleplaying Games',
+			name: 'TTRPG AI Assistant',
 			role: 'Lead Researcher, Developer',
 			slug: 'ttrpg2.png',
-			description: 'A computational support tool for game masters of tabletop roleplaying games.',
+			description: 'A co-creative AI assistant for game masters of tabletop roleplaying games.',
 			url: 'https://www.devi-a.com/CompExamPortfolio/ttrpg.html',
 			github_url: 'https://github.com/dacharya64/FatalFrequenciesFrontend',
 			demo_url: 'https://www.devi-a.com/FatalFrequenciesFrontend'
@@ -41,7 +41,8 @@
 			name: 'VR / Physical Escape Room',
 			slug: 'escape.png',
 			description: "An escape room with asymmetrical puzzle-solving in physical and virtual reality spaces. Made for UCSC's Science Internship Program.",
-			url: 'https://www.devi-a.com/CompExamPortfolio/escaperoom.html'
+			url: 'https://www.devi-a.com/CompExamPortfolio/escaperoom.html',
+			demo_url: 'https://github.com/dacharya64/SIP-Unity-Escape-Room'
 		},
 		{
 			id: 'terasology',
@@ -61,7 +62,8 @@
 			role: 'Lead Artist',
 			slug: 'cl.jpg',
 			description: 'A mobile game about collecting and crafting elements together to discover the universe, made with the Massachusetts Digital Games Institute.',
-			url: 'https://apps.apple.com/us/app/fusion-galaxy/id999077925#?platform=ipad'
+			url: 'https://apps.apple.com/us/app/fusion-galaxy/id999077925#?platform=ipad',
+			demo_url: 'https://apps.apple.com/us/app/fusion-galaxy/id999077925?ls=1'
 		},
 		{
 			id: 'red_survivor',
@@ -114,20 +116,10 @@
 			url: 'https://vimeo.com/showcase/5756343'
 		}
 	];
-
-	import { createEventDispatcher } from 'svelte';
-
-	const dispatch = createEventDispatcher();
-
-	function returnProjectID(id: string) {
-		dispatch('message', {
-			text: id
-		});
-	}
 </script>
 
 <section class="projects">
-	<h1 class="h1">Projects</h1>
+	<h1 class="h1">Featured Projects</h1>
 	<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
 		{#each projects as project}
 			{#if project.priority == true}
@@ -135,17 +127,18 @@
 					<img src="/img/{project.slug}" class="rounded-lg w-full h-60 object-cover" alt="Thumbnail for project {project.name}" />
 					<section class="p-6">
 						<h3 class="h3">{project.name}</h3>
+						<h4 class="h4"><strong>{project.role}</strong></h4>
 						<p>{project.description}</p>
 					</section>
 					<footer class="card-footer mt-auto">
 						<div class="cardbuttoncontainer">
 							<div>
-								<a href="./{project.id}" type="button" class="btn variant-filled cardbutton">Read More</a>
+								<a href="./{project.id}" type="button" class="btn variant-filled cardbutton"><span><i class="fa-solid fa-book" /></span><span>Read More</span></a>
 							</div>
 							<br />
 							<div>
 								{#if project.demo_url}
-									<a href={project.demo_url} type="button" class="btn variant-filled cardbutton">Demo</a>
+									<a href={project.demo_url} type="button" class="btn variant-filled cardbutton"><span><i class="fa-solid fa-gamepad"></i></span><span>Play Now</span></a>
 								{/if}
 							</div>
 						</div>

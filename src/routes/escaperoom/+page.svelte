@@ -1,6 +1,5 @@
-<a href="../" type="button" class="btn variant-filled cardbutton">Back</a>
-
 <section class="projectpage">
+	<a href="../" type="button" class="btn variant-filled cardbutton">Back</a>
 	<h1 class="h1">Science Internship Program: Virtual Reality / Physical Escape Room</h1>
 	<h5 class="h5">Researching how to create different collaborative dynamics in escape rooms through designing a combined physical and virtual escape room</h5>
 
