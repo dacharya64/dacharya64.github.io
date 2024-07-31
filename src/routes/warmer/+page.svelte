@@ -40,10 +40,10 @@
 			There are four different minigames available to play, one in each region. The difficulty and contents of these games vary based on global temperature, emissions, and precipitation. The player's
 			choices and performance in these minigames change the world's stats as well, resulting in a loop where the player can see the impacts of their actions on their planet.
 		</p>
-		<h3 class="h3">The City</h3>
+		<h3 class="h3">Pass Bills</h3>
 		<p>
-			The City minigame allows the player to pass bills that influence the planet. The player is presented with several pairs of bills, and can see the resulting effects of each bill (although these
-			are somewhat abstracted--such as a large increase in emissions, or a small decrease in popular support). They must choose one of each pair to enact. These bills directly impact the stats of the
+			One minigame allows the player to pass bills that influence the planet. The player is presented with several pairs of bills, and can see the resulting effects of each bill (although these are
+			somewhat abstracted--such as a large increase in emissions, or a small decrease in popular support). They must choose one of each pair to enact. These bills directly impact the stats of the
 			planet, and players must balance the importance of different factors such as emissions and popular support, as these will impact global temperature and the other minigames.
 		</p>
 		<img
@@ -55,12 +55,28 @@
 			popular support. They have the option to place people in one of three locations:
 		</p>
 		<ul class="list-disc list-inside">
-			<li>The factory -- people placed here will protest, helping to reduce emissions and raise public opinion</li>
-			<li>The forest -- people placed here will help to mitigate deforestation of the area by planting trees, which will help to somewhat reduce emissions</li>
-			<li>The carbon sequestration plant -- people placed here will reduce emissions more, but this costs more money overall</li>
+			<li><strong>The factory</strong> -- people placed here will protest, helping to reduce emissions and raise public opinion</li>
+			<li><strong>The forest</strong> -- people placed here will help to mitigate deforestation of the area by planting trees, which will help to somewhat reduce emissions</li>
+			<li><strong>The carbon sequestration plant</strong> -- people placed here will reduce emissions more, but this costs more money overall</li>
 		</ul>
 		<img
 			src="https://camo.githubusercontent.com/cba8f28080cdec274c7c717da2cd387224cf31f991ee96deb0e0797bc1497ca0/68747470733a2f2f692e696d6775722e636f6d2f6f684c494344452e706e67"
 			alt="The protest minigame" />
+		<h3 class="h3">Fight Wildfires</h3>
+		<p>
+			The third minigame allows the player to react to the effects of climate change. As the world becomes hotter and drier, wildfires spread. This minigame allows the player to fly a helicopter,
+			picking up water from reservoirs and using this water to put out fires in the area. The size of reservoirs and fires is dependent on global stats, making the game harder as the planet heats up.
+		</p>
+		<img
+			src="https://camo.githubusercontent.com/999bed0c77f49d2145630fa9476bc91d18912ce0affccb745be612d6681e0ee0/68747470733a2f2f692e696d6775722e636f6d2f31646c7a5157382e706e67"
+			alt="The wildfire minigame" />
+		<h3 class="h3">Protect the Arctic</h3>
+		<p>
+			The last minigame allows the player to attempt to protect ice in the Arctic from being destroyed. The player controls a paddle and must deflect incoming longwave radiation that destroys the ice.
+			This minigame also becomes more difficult as the planet warms, reflecting the change in polar clouds and cloud cover reflecting more longwave radiation.
+		</p>
+		<img
+			src="https://camo.githubusercontent.com/d7598a2b117a324ad3c15a1b4016b93251c3916c0edf803911193f1cbf359ce6/68747470733a2f2f692e696d6775722e636f6d2f673654584b56712e706e67"
+			alt="The arctic minigame" />
 	</div>
 </section>
