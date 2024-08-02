@@ -1,21 +1,9 @@
 <script>
-	import { LightSwitch } from '@skeletonlabs/skeleton';
+	import Header from './header.svelte';
 	import Landing from './landing.svelte';
 </script>
 
-<!-- Header -->
-<header class="flex p-4 justify-between">
-	<div>
-		<h4 class="h4">
-			<strong>Devi Acharya</strong>
-			| <i class="fa-solid fa-gears"></i> AI in Games
-		</h4>
-	</div>
-
-	<div>
-		<LightSwitch />
-	</div>
-</header>
+<Header />
 
 <!-- Main body -->
 <section class="homepage">

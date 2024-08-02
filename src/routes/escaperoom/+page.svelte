@@ -1,5 +1,11 @@
+<script>
+	import Header from '../header.svelte';
+</script>
+
+<Header />
+
 <section class="projectpage">
-	<a href="../" type="button" class="btn variant-filled cardbutton">Back</a>
+	<a href="../" type="button" class="btn-icon variant-filled cardbutton"><i class="fa-solid fa-reply"></i></a>
 	<h1 class="h1">Science Internship Program: Virtual Reality / Physical Escape Room</h1>
 	<h5 class="h5">Researching how to create different collaborative dynamics in escape rooms through designing a combined physical and virtual escape room</h5>
 
@@ -175,4 +181,11 @@
 			‘escape room’ experience. Cureus, 10(3).
 		</li>
 	</ul>
+	<section class="grid grid-cols-4 gap-8">
+		<span></span>
+		<a type="button" class="btn btn-xl variant-filled" href="../"><span><i class="fa-solid fa-circle-chevron-left"></i></span><span>Back to home</span></a>
+		<a type="button" class="btn btn-xl variant-filled-primary" href="https://github.com/dacharya64/SIP-Unity-Escape-Room"
+			><span><i class="fa-brands fa-github"></i></span><span>Find it on Github</span></a>
+		<span></span>
+	</section>
 </section>

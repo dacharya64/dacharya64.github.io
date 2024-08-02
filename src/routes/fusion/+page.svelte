@@ -1,6 +1,10 @@
-<section class="projectpage">
-	<a href="../" type="button" class="btn variant-filled cardbutton">Back</a>
+<script>
+	import Header from '../header.svelte';
+</script>
 
+<Header />
+<section class="projectpage">
+	<a href="../" type="button" class="btn-icon variant-filled cardbutton"><i class="fa-solid fa-reply"></i></a>
 	<div>
 		<h1 class="h1">Fusion Galaxy</h1>
 		<h5 class="h5">A mobile game about collecting and crafting elements to make life.</h5>
@@ -18,8 +22,6 @@
 		learn more about the games industry. I worked as the lead artist on the team, helping create an art bible and assets for the team as well as guiding the team's artists.
 	</p>
 
-	<!-- <h2 class="h2">Gallery</h2> -->
-
 	<center>
 		<iframe
 			width="560"
@@ -33,16 +35,23 @@
 		></center>
 	<section class="grid grid-cols-4 gap-8">
 		<div>
-			<img class="rounded-lg" src="img/fusion1.jpg" alt="" />
+			<img class="rounded-lg" src="img/fusion1.jpg" alt="Fusion Galaxy title screen" />
 		</div>
 		<div>
-			<img class="rounded-lg" src="img/fusion2.jpg" alt="" />
+			<img class="rounded-lg" src="img/fusion2.jpg" alt="Fusion Galaxy gathering screen" />
 		</div>
 		<div>
-			<img class="rounded-lg" src="img/fusion3.jpg" alt="" />
+			<img class="rounded-lg" src="img/fusion3.jpg" alt="Fusion Galaxy crafting screen" />
 		</div>
 		<div>
-			<img class="rounded-lg" src="img/fusion4.jpg" alt="" />
+			<img class="rounded-lg" src="img/fusion4.jpg" alt="Fusion Galaxy powerup screen" />
 		</div>
+	</section>
+	<section class="grid grid-cols-4 gap-8">
+		<span></span>
+		<a type="button" class="btn btn-xl variant-filled" href="../"><span><i class="fa-solid fa-circle-chevron-left"></i></span><span>Back to home</span></a>
+		<a type="button" class="btn btn-xl variant-filled-primary" href="https://apps.apple.com/us/app/fusion-galaxy/id999077925?ls=1"
+			><span><i class="fa-brands fa-app-store-ios"></i></span><span>Play now on iOS!</span></a>
+		<span></span>
 	</section>
 </section>

@@ -1,5 +1,10 @@
+<script>
+	import Header from '../header.svelte';
+</script>
+
+<Header />
 <section class="projectpage">
-	<a href="../" type="button" class="btn variant-filled cardbutton">Back</a>
+	<a href="../" type="button" class="btn-icon variant-filled cardbutton"><i class="fa-solid fa-reply"></i></a>
 
 	<div>
 		<h1 class="h1">Prototyping a Game Master Digital Assistant</h1>
@@ -244,5 +249,12 @@
 		for GMs to use on the fly, create better visualizations for what has already happened in the game world such as a log of player actions, and provide creative suggestions for what can happen next
 		in the game world as a creative support tool for new GMs.
 	</p>
-	<p>You can try out the tool at: <a href="https://www.devi-a.com/PhandelverProlog/index.html">https://www.devi-a.com/PhandelverProlog/index.html</a></p>
+	<section class="grid grid-cols-2 gap-2">
+		<a type="button" class="btn btn-xl variant-filled" href="../"><span><i class="fa-solid fa-circle-chevron-left"></i></span><span>Back to home</span></a>
+		<a type="button" class="btn btn-xl variant-filled-primary" href="https://www.devi-a.com/PhandelverProlog/index.html"><span><i class="fa-solid fa-play"></i></span><span>"Lost Mines" Demo</span></a>
+		<a type="button" class="btn btn-xl variant-filled-primary" href="https://github.com/dacharya64/FatalFrequenciesFrontend"
+			><span><i class="fa-brands fa-github"></i></span><span>"Fatal Frequences" Github</span></a>
+		<a type="button" class="btn btn-xl variant-filled-primary" href="https://www.devi-a.com/FatalFrequenciesFrontend/"
+			><span><i class="fa-solid fa-play"></i></span><span>"Fatal Frequences" Demo</span></a>
+	</section>
 </section>
