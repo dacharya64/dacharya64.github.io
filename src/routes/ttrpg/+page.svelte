@@ -25,8 +25,8 @@
 		some of the barrier to entry for new GMs and scaffold the GMing process. While the prototype I’ve created so far only covers the information visualization part of supporting GMs, it also lays the
 		groundwork necessary for creating a creativity support assistant for GMs, which I will discuss in more detail below.
 	</p>
-
-	<h2 class="h2">Play progression graphs for <em>Lost Mine of Phandelver</em></h2>
+	<h2 class="h2">Part 1: Lost Mine of Phandelver</h2>
+	<h3 class="h3">Play progression graphs for <em>Lost Mine of Phandelver</em></h3>
 	<p>
 		To begin this project, I wanted to see how I might map out the possibility space of a TTRPG module. I chose the introductory Dungeons & Dragons 5th edition module <em>Lost Mine of Phandelver</em> because
 		it uses a popular TTRPG system and is relatively short and simple. I created a graph of the different paths through the story space, routes that players can take to progress and get the information
@@ -135,7 +135,7 @@
 	<p>
 		The interactive visualization is available here: <a href="https://www.devi-a.com/DnDTiddlyMap/">https://www.devi-a.com/DnDTiddlyMap/</a>
 	</p>
-	<h2 class="h2">A prolog database for <em>Lost Mine of Phandelver</em></h2>
+	<h3 class="h3">A prolog database for <em>Lost Mine of Phandelver</em></h3>
 	<p>
 		While these initial graphs were helpful in showing how digital technology could start to help visualize a TTRPG module, I knew that this was just the start. After conducting another round of
 		interviews with GMs about these graphs, I got insights into more ways that digital tools might be helpful to GMs, including advice about making a queryable database that GMs can use to quickly
@@ -144,7 +144,7 @@
 		programming language Prolog as the backend language for my database because it would allow me to do complex queries on information about the world that would be particularly helpful if offering up
 		creative suggestions to the GM for what could happen next. I talk more about this in the next section.
 	</p>
-	<h3 class="h3">Prolog and complex queries</h3>
+	<h4 class="h4">Prolog and complex queries</h4>
 	<p>
 		To begin, I wrote a python parser to convert all of my JSON structures into Prolog representation for the module information. All of the entities in the world are represented with an array of the
 		details associated with them so that I can easily query the database for all information about a given entity (ex. character) by querying for the character and each element in that array. As an
@@ -190,7 +190,7 @@
 		GM might have the Redbrands expand their power by taking over the town. These are either queries that could potentially be searched for by a GM in a future iteration of this project, or used by a
 		computational system for providing suggestions to GMs by checking for pre-conditions on suggestions for what can happen next in the game world based on what has already happened.
 	</p>
-	<h3 class="h3">Creating an interactive database</h3>
+	<h4 class="h4">Creating an interactive database</h4>
 	<p>
 		By querying a Prolog database as described in the previous section, I created a web interface for displaying information from the module <em>Lost Mine of Phandelver</em>, displaying the
 		information in a table like so:
@@ -241,7 +241,7 @@
 		I also reimplemented the graph visualization of ways that the players can progress in the story discussed in the first part of this writeup using Prolog queries instead of DataScript queries. This
 		visualization can be seen from the “Visualization” tab at the top of the page.
 	</p>
-	<h2 class="h2">Summing up</h2>
+	<h3 class="h3">Summing up</h3>
 	<p>
 		The goal of this project was to create visualizations for Lost Mine of Phandelver in order to show how computational tools might be able to display module information in a more concise way than
 		traditional modules, as well as let users query for the information they want. I present first steps in this direction, describing how I represented information from the game module and displayed
@@ -250,8 +250,40 @@
 		in the game world as a creative support tool for new GMs.
 	</p>
 	<section class="grid grid-cols-2 gap-2">
-		<a type="button" class="btn btn-xl variant-filled" href="../"><span><i class="fa-solid fa-circle-chevron-left"></i></span><span>Back to home</span></a>
+		<a type="button" class="btn btn-xl variant-filled" href="https://github.com/dacharya64/PhandelverProlog"><span><i class="fa-brands fa-github"></i></span><span>"Lost Mines" Github</span></a>
 		<a type="button" class="btn btn-xl variant-filled-primary" href="https://www.devi-a.com/PhandelverProlog/index.html"><span><i class="fa-solid fa-play"></i></span><span>"Lost Mines" Demo</span></a>
+	</section>
+	<h2 class="h2">Part 2: "Fatal Frequencies"</h2>
+	<p>
+		Following this development work for "Lost Mine of Phandelver," I wanted to further explore how we can create different tools for GM assistants for TTRPGs. Because of the large possibility space of
+		"Lost Mine" and the tendency for players to be able to go off the rails in this game format, I decided a more structured game format might be better for an introductory exploration. For this
+		exploration, I chose the game system Gumshoe One-2-One -- a mystery-based TTRPG system with one GM who provides the clues, characters, and details of the world, and one player who roleplays the
+		detective trying to solve the mystery. Because of the more limited space of the narrative and the structure provided with the game module (clues, leads, character knowledge) this served as a good
+		basis for a Prolog database.
+	</p>
+	<p>
+		For this project, I chose the game module "Fatal Frequencies," where reporter Vivian Sinclair is looking for a missing man at the behest of his fiancee, and is pulled into the strange world of
+		illicit inventions and unexplained disappearances. I modeled the contents of this module in Prolog, representing the characters, clues, scenes, and connections between them (for instance, which
+		characters know which information). This information is then rendered in a frontend where the GM can easily see and mark off character and scene information that the player knows about, and find
+		leads to new undiscovered scenes.
+	</p>
+	<figure>
+		<img src="img/ttrpg3.png" />
+		<figcaption>An image of the frontend for "Fatal Frequencies"</figcaption>
+	</figure>
+	<p>
+		This demo also served to leverage Prolog queries in order to find information about the game world. For instance, the GM can query against the database to find a list of clues that a given
+		character knows, or a list of leads to a new scene. These queries can change as the game state changes over time--for instance, providing a list of clues the player doesn't know about yet, or
+		providing a list of characters that the player is friendly with as their relationship with other characters changes over time.
+	</p>
+	<p>
+		More about how this system works and future work for this project can be found in the paper "Shoelace: A Storytelling Assistant for GUMSHOE One-2-One", which can be found <a
+			class="anchor"
+			href="https://www.devi-a.com/papers/Shoelace_FDG23.pdf">here</a
+		>.
+	</p>
+	<section class="grid grid-cols-3 gap-2">
+		<a type="button" class="btn btn-xl variant-filled" href="../"><span><i class="fa-solid fa-circle-chevron-left"></i></span><span>Back to home</span></a>
 		<a type="button" class="btn btn-xl variant-filled-primary" href="https://github.com/dacharya64/FatalFrequenciesFrontend"
 			><span><i class="fa-brands fa-github"></i></span><span>"Fatal Frequences" Github</span></a>
 		<a type="button" class="btn btn-xl variant-filled-primary" href="https://www.devi-a.com/FatalFrequenciesFrontend/"

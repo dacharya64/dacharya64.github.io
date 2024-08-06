@@ -185,7 +185,7 @@
 		<span></span>
 		<a type="button" class="btn btn-xl variant-filled" href="../"><span><i class="fa-solid fa-circle-chevron-left"></i></span><span>Back to home</span></a>
 		<a type="button" class="btn btn-xl variant-filled-primary" href="https://github.com/dacharya64/SIP-Unity-Escape-Room"
-			><span><i class="fa-brands fa-github"></i></span><span>Find it on Github</span></a>
+			><span><i class="fa-brands fa-github"></i></span><span>Project Github</span></a>
 		<span></span>
 	</section>
 </section>

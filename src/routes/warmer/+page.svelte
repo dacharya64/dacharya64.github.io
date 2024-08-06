@@ -99,7 +99,7 @@
 	</div>
 	<section class="grid grid-cols-3 gap-8">
 		<a type="button" class="btn btn-xl variant-filled" href="../"><span><i class="fa-solid fa-circle-chevron-left"></i></span><span>Back to home</span></a>
-		<a type="button" class="btn btn-xl variant-filled-primary" href="https://github.com/dacharya64/UCSCClimateGame"><span><i class="fa-brands fa-github"></i></span><span>Find it on Github</span></a>
+		<a type="button" class="btn btn-xl variant-filled-primary" href="https://github.com/dacharya64/UCSCClimateGame"><span><i class="fa-brands fa-github"></i></span><span>Project Github</span></a>
 		<a type="button" class="btn btn-xl variant-filled-primary" href="https://www.devi-a.com/ClimateGamePlayable/"><span><i class="fa-solid fa-gamepad"></i></span><span>Play now!</span></a>
 	</section>
 </section>
