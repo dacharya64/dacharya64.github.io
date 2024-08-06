@@ -108,6 +108,10 @@
 					<dd>
 						<em>{publication.venue}</em>, {publication.year}
 					</dd>
+					{#if publication.award}
+						<strong>{publication.award}</strong>
+					{/if}
+					<dd></dd>
 				</span>
 				<span>
 					<a href={publication.url} target="blank" type="button" class="btn-icon variant-filled"><span><i class="fa-regular fa-file-pdf"></i></span></a>
