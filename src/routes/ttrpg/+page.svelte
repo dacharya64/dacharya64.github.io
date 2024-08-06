@@ -35,7 +35,7 @@
 	</p>
 
 	<figure>
-		<img src="img/image7.png" />
+		<img src="img/image7.png" alt="A section of the handmade graph detailing module information" />
 		<figcaption>A section of the handmade graph detailing module information in <em>Lost Mine</em></figcaption>
 	</figure>
 	<p>
@@ -95,7 +95,7 @@
 		and make each type more visually distinct. The visualization for the above code can be seen here:
 	</p>
 	<figure>
-		<img src="img/image4.png" />
+		<img src="img/image4.png" alt="A sample visualization of the connections between locations, characters, and information" />
 		<figcaption>A sample visualization of the connections between locations, characters, and information</figcaption>
 	</figure>
 	<p>
@@ -105,7 +105,7 @@
 		expanded version here:
 	</p>
 	<figure>
-		<img src="img/image1.png" />
+		<img src="img/image1.png" alt="A section of the expanded knowledge visualization" />
 		<figcaption>A section of the expanded knowledge visualization</figcaption>
 	</figure>
 	<p>
@@ -115,7 +115,7 @@
 		threads). You can see the condensed version here:
 	</p>
 	<figure>
-		<img src="img/image8.png" />
+		<img src="img/image8.png" alt="A section of the condensed knowledge visualization and key" />
 		<figcaption>A section of the condensed knowledge visualization and key</figcaption>
 	</figure>
 	<p>
@@ -126,7 +126,7 @@
 		changes to the graph depending on what happens during play.
 	</p>
 	<figure>
-		<img src="img/image5.gif" />
+		<img src="img/image5.gif" alt="A section of the interactive version of the condensed knowledge visualization" />
 		<figcaption>A section of the interactive version of the condensed knowledge visualization</figcaption>
 	</figure>
 	<p>
@@ -196,7 +196,7 @@
 		information in a table like so:
 	</p>
 	<figure>
-		<img src="img/image6.png" class="ui-image-half-right" />
+		<img src="img/image6.png" alt="a list of locations" />
 		<figcaption>A list of locations in <em>Lost Mine of Phandelver</em></figcaption>
 	</figure>
 	<p>
@@ -224,7 +224,7 @@
 		character/location/etc. Then when the user edits and submits that form, the new entry is added to the database.
 	</p>
 	<figure>
-		<img src="img/image3.png" />
+		<img src="img/image3.png" alt="Conditional page with form for adding a new conditional" />
 		<figcaption>Conditional page with form for adding a new conditional</figcaption>
 	</figure>
 	<p>
@@ -234,7 +234,7 @@
 		the table, highlighting the tag in yellow so it is easy to spot.
 	</p>
 	<figure>
-		<img src="img/image2.gif" />
+		<img src="img/image2.gif" alt="GIF of clicking a hyperlink" />
 		<figcaption>GIF of clicking a hyperlink</figcaption>
 	</figure>
 	<p>
@@ -268,7 +268,7 @@
 		leads to new undiscovered scenes.
 	</p>
 	<figure>
-		<img src="img/ttrpg3.png" />
+		<img src="img/ttrpg3.png" alt="frontend for Fatal Frequencies" />
 		<figcaption>An image of the frontend for "Fatal Frequencies"</figcaption>
 	</figure>
 	<p>
