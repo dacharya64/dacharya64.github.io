@@ -1,4 +1,5 @@
 <script>
+	import Footer from '../footer.svelte';
 	import Header from '../header.svelte';
 </script>
 
@@ -47,11 +48,11 @@
 			<img class="rounded-lg" src="img/fusion4.jpg" alt="Fusion Galaxy powerup screen" />
 		</div>
 	</section>
-	<section class="grid grid-cols-4 gap-8">
+	<section class="grid grid-cols-3 gap-8">
 		<span></span>
-		<a type="button" class="btn btn-xl variant-filled" href="../"><span><i class="fa-solid fa-circle-chevron-left"></i></span><span>Back to home</span></a>
-		<a type="button" class="btn btn-xl variant-filled-primary" href="https://apps.apple.com/us/app/fusion-galaxy/id999077925?ls=1"
+		<a type="button" class="btn btn-lg variant-filled-primary project-button-container" href="https://apps.apple.com/us/app/fusion-galaxy/id999077925?ls=1"
 			><span><i class="fa-brands fa-app-store-ios"></i></span><span>Play now on iOS!</span></a>
 		<span></span>
 	</section>
 </section>
+<Footer />

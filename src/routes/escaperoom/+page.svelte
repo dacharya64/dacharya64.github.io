@@ -1,4 +1,5 @@
 <script>
+	import Footer from '../footer.svelte';
 	import Header from '../header.svelte';
 </script>
 
@@ -181,11 +182,11 @@
 			‘escape room’ experience. Cureus, 10(3).
 		</li>
 	</ul>
-	<section class="grid grid-cols-4 gap-8">
+	<section class="grid grid-cols-3 gap-8 project-button-container">
 		<span></span>
-		<a type="button" class="btn btn-xl variant-filled" href="../"><span><i class="fa-solid fa-circle-chevron-left"></i></span><span>Back to home</span></a>
-		<a type="button" class="btn btn-xl variant-filled-primary" href="https://github.com/dacharya64/SIP-Unity-Escape-Room"
+		<a type="button" class="btn btn-lg variant-filled-primary" href="https://github.com/dacharya64/SIP-Unity-Escape-Room"
 			><span><i class="fa-brands fa-github"></i></span><span>Project Github</span></a>
 		<span></span>
 	</section>
 </section>
+<Footer />
