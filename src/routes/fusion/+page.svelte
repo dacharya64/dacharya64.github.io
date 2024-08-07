@@ -5,7 +5,6 @@
 
 <Header />
 <section class="projectpage">
-	<a href="../" type="button" class="btn-icon variant-filled cardbutton"><i class="fa-solid fa-reply"></i></a>
 	<div>
 		<h1 class="h1">Fusion Galaxy</h1>
 		<h5 class="h5">A mobile game about collecting and crafting elements to make life.</h5>

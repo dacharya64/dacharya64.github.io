@@ -32,4 +32,5 @@
 			<a class="anchor" href="https://github.com/dacharya64/dacharya64.github.io"> Fork me on <i class="fa-brands fa-github"></i></a>
 		</p>
 	</div>
+	<div><a href="../" class="btn-icon variant-filled"><i class="fa-solid fa-house"></i></a></div>
 </footer>

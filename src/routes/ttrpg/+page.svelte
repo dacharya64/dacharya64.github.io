@@ -5,8 +5,6 @@
 
 <Header />
 <section class="projectpage">
-	<a href="../" type="button" class="btn-icon variant-filled cardbutton"><i class="fa-solid fa-reply"></i></a>
-
 	<div>
 		<h1 class="h1">Prototyping a Game Master Digital Assistant</h1>
 		<h5 class="h5">Researching how we can design computational tools to help support game masters running tabletop roleplaying games.</h5>
@@ -278,13 +276,10 @@
 		character knows, or a list of leads to a new scene. These queries can change as the game state changes over time--for instance, providing a list of clues the player doesn't know about yet, or
 		providing a list of characters that the player is friendly with as their relationship with other characters changes over time.
 	</p>
-	<p>
-		More about how this system works and future work for this project can be found in the paper "Shoelace: A Storytelling Assistant for GUMSHOE One-2-One", which can be found <a
-			class="anchor"
-			href="https://www.devi-a.com/papers/Shoelace_FDG23.pdf">here</a
-		>.
-	</p>
-	<section class="grid grid-cols-2 gap-8 project-button-container">
+	<p>More about how this system works and future work for this project can be found in the paper linked below. >.</p>
+	<section class="grid grid-cols-3 gap-8 project-button-container">
+		<a type="button" class="btn btn-lg variant-filled-primary" href="https://www.devi-a.com/papers/Shoelace_FDG23.pdf"
+			><span><i class="fa-regular fa-file-lines"></i></span><span>Read the paper</span></a>
 		<a type="button" class="btn btn-lg variant-filled-primary" href="https://github.com/dacharya64/FatalFrequenciesFrontend"
 			><span><i class="fa-brands fa-github"></i></span><span>"Fatal Frequencies" Github</span></a>
 		<a type="button" class="btn btn-lg variant-filled-primary" href="https://www.devi-a.com/FatalFrequenciesFrontend/"
