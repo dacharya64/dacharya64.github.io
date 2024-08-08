@@ -4,7 +4,7 @@
 </script>
 
 <Header />
-<section class="projectpage">
+<section class="projectpage mx-28 2xl:mx-96 my-20">
 	<div>
 		<h1 class="h1">Fusion Galaxy</h1>
 		<h5 class="h5">A mobile game about collecting and crafting elements to make life.</h5>
@@ -24,8 +24,6 @@
 
 	<center>
 		<iframe
-			width="560"
-			height="315"
 			src="https://www.youtube.com/embed/umY061u91Dw?si=Z1c56cEO3ZSs9EF1"
 			title="YouTube video player"
 			frameborder="0"
@@ -47,7 +45,7 @@
 			<img class="rounded-lg" src="img/fusion4.jpg" alt="Fusion Galaxy powerup screen" />
 		</div>
 	</section>
-	<section class="grid grid-cols-3 gap-8">
+	<section class="grid grid-cols-1 lg:grid-cols-3 gap-8">
 		<span></span>
 		<a type="button" class="btn btn-lg variant-filled-primary project-button-container" href="https://apps.apple.com/us/app/fusion-galaxy/id999077925?ls=1"
 			><span><i class="fa-brands fa-app-store-ios"></i></span><span>Play now on iOS!</span></a>

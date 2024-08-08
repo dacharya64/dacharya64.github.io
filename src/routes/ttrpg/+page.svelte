@@ -4,7 +4,7 @@
 </script>
 
 <Header />
-<section class="projectpage">
+<section class="projectpage mx-28 2xl:mx-96 my-20">
 	<div>
 		<h1 class="h1">Prototyping a Game Master Digital Assistant</h1>
 		<h5 class="h5">Researching how we can design computational tools to help support game masters running tabletop roleplaying games.</h5>
@@ -248,7 +248,7 @@
 		for GMs to use on the fly, create better visualizations for what has already happened in the game world such as a log of player actions, and provide creative suggestions for what can happen next
 		in the game world as a creative support tool for new GMs.
 	</p>
-	<section class="grid grid-cols-2 gap-8 project-button-container">
+	<section class="grid grid-cols-1 lg:grid-cols-2 gap-8 project-button-container">
 		<a type="button" class="btn btn-lg variant-filled-primary" href="https://github.com/dacharya64/PhandelverProlog"
 			><span><i class="fa-brands fa-github"></i></span><span>"Lost Mines" Github</span></a>
 		<a type="button" class="btn btn-lg variant-filled-primary" href="https://www.devi-a.com/PhandelverProlog/index.html"><span><i class="fa-solid fa-play"></i></span><span>"Lost Mines" Demo</span></a>
@@ -276,8 +276,8 @@
 		character knows, or a list of leads to a new scene. These queries can change as the game state changes over time--for instance, providing a list of clues the player doesn't know about yet, or
 		providing a list of characters that the player is friendly with as their relationship with other characters changes over time.
 	</p>
-	<p>More about how this system works and future work for this project can be found in the paper linked below. >.</p>
-	<section class="grid grid-cols-3 gap-8 project-button-container">
+	<p>More about how this system works and future work for this project can be found in the paper linked below.</p>
+	<section class="grid grid-cols-1 min-[1900px]:grid-cols-3 gap-8 project-button-container">
 		<a type="button" class="btn btn-lg variant-filled-primary" href="https://www.devi-a.com/papers/Shoelace_FDG23.pdf"
 			><span><i class="fa-regular fa-file-lines"></i></span><span>Read the paper</span></a>
 		<a type="button" class="btn btn-lg variant-filled-primary" href="https://github.com/dacharya64/FatalFrequenciesFrontend"

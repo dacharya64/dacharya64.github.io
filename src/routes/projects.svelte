@@ -85,36 +85,6 @@
 			description: 'Authored and co-authored several interactive fiction games, including The Abyss--a surreal exploration of the mind--and The Ark--a puzzle game set aboard a derelict spaceship.',
 			url: 'https://textadventures.co.uk/games/view/ob1-nceir0a6dpocknuxyw/the-abyss'
 		}
-		// {
-		// 	id: 'subq',
-		// 	priority: false,
-		// 	tag: 'other',
-		// 	name: 'sub-Q Magazine',
-		// 	role: 'Editor',
-		// 	slug: 'subq.jpg',
-		// 	description: 'Online literary magazine for interactive fiction fantasy, science fiction, and horror. Reviewed submissions, edited pieces, and interviewed authors.',
-		// 	url: 'https://sub-q.com/'
-		// }
-		// {
-		// 	id: 'oet',
-		// 	priority: false,
-		// 	tag: 'other',
-		// 	name: 'On Equal Terms',
-		// 	role: 'Research Assistant',
-		// 	slug: 'equalterms.jpg',
-		// 	description: "Developed interactive digital exhibit about the experiences of tradeswomen with the Women's Studies Research Center at Brandeis University.",
-		// 	url: 'https://onequalter.ms/'
-		// },
-		// {
-		// 	id: 'film',
-		// 	priority: false,
-		// 	tag: 'other',
-		// 	name: 'Films and animation',
-		// 	role: 'Cinematographer, animator, editor',
-		// 	slug: 'animation.gif',
-		// 	description: 'Created short films and animations as part of the CET study abroad program in Prague and the Getz Media Lab at Brandeis University.',
-		// 	url: 'https://vimeo.com/showcase/5756343'
-		// }
 	];
 </script>
 

@@ -16,13 +16,6 @@ h2 {
 	margin-bottom: 0.5em;
 }
 
-.homepage {
-	margin-top: 10em;
-	margin-bottom: 10em;
-	margin-left: 15em;
-	margin-right: 15em;
-}
-
 strong {
 	@apply text-primary-500-400-token;
 }
@@ -59,12 +52,6 @@ h5 {
 	margin-bottom: 1em;
 }
 
-.projectpage {
-	width: 50%;
-	margin: auto;
-	padding-bottom: 10em;
-}
-
 .projectpage p {
 	margin-bottom: 1em;
 	margin-top: 1em;
@@ -77,8 +64,10 @@ h5 {
 }
 
 figure {
+	margin: auto;
 	margin-top: 2em;
 	margin-bottom: 2em;
+	width: 65%;
 }
 
 figcaption {
@@ -90,7 +79,7 @@ figcaption {
 .projectpage figure img {
 	padding: inherit;
 	margin: auto;
-	width: 75%;
+
 	display: block;
 }
 
@@ -127,4 +116,14 @@ footer {
 	align-self: center;
 	margin-left: auto;
 	margin-right: 0;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+iframe {
+	aspect-ratio: 16 / 9;
+	width: 50% !important;
 }

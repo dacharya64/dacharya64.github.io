@@ -5,7 +5,7 @@
 
 <Header />
 
-<section class="projectpage">
+<section class="projectpage mx-28 2xl:mx-96 my-20">
 	<div>
 		<h1 class="h1">Warmer</h1>
 		<h5 class="h5">An NSF-funded game about climate change.</h5>
@@ -96,7 +96,7 @@
 				alt="The arctic minigame" />
 		</figure>
 	</div>
-	<section class="grid grid-cols-2 gap-8 project-button-container">
+	<section class="grid grid-cols-1 lg:grid-cols-2 gap-8 project-button-container">
 		<a type="button" class="btn btn-lg variant-filled-primary" href="https://github.com/dacharya64/UCSCClimateGame"><span><i class="fa-brands fa-github"></i></span><span>Project Github</span></a>
 		<a type="button" class="btn btn-lg variant-filled-primary" href="https://www.devi-a.com/ClimateGamePlayable/"><span><i class="fa-solid fa-gamepad"></i></span><span>Play now!</span></a>
 	</section>

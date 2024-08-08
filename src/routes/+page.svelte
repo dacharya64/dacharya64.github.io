@@ -7,7 +7,7 @@
 <Header />
 
 <!-- Main body -->
-<section class="homepage">
+<section class="homepage mx-28 xl:mx-80 my-20">
 	<Landing />
 </section>
 <Footer />

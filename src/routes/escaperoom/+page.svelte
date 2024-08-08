@@ -5,7 +5,7 @@
 
 <Header />
 
-<section class="projectpage">
+<section class="projectpage mx-28 2xl:mx-96 my-20">
 	<h1 class="h1">Science Internship Program: Virtual Reality / Physical Escape Room</h1>
 	<h5 class="h5">Researching how to create different collaborative dynamics in escape rooms through designing a combined physical and virtual escape room</h5>
 
@@ -181,7 +181,7 @@
 			‘escape room’ experience. Cureus, 10(3).
 		</li>
 	</ul>
-	<section class="grid grid-cols-3 gap-8 project-button-container">
+	<section class="grid grid-cols-1 lg:grid-cols-3 gap-8 project-button-container">
 		<span></span>
 		<a type="button" class="btn btn-lg variant-filled-primary" href="https://github.com/dacharya64/SIP-Unity-Escape-Room"
 			><span><i class="fa-brands fa-github"></i></span><span>Project Github</span></a>
