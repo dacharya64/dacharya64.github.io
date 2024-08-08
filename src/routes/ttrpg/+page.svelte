@@ -278,8 +278,7 @@
 	</p>
 	<p>More about how this system works and future work for this project can be found in the paper linked below.</p>
 	<section class="grid grid-cols-1 min-[1900px]:grid-cols-3 gap-8 project-button-container">
-		<a type="button" class="btn btn-lg variant-filled-primary" href="https://www.devi-a.com/papers/Shoelace_FDG23.pdf"
-			><span><i class="fa-regular fa-file-lines"></i></span><span>Read the paper</span></a>
+		<a type="button" class="btn btn-lg variant-filled-primary" href="papers/Shoelace_FDG23.pdf"><span><i class="fa-regular fa-file-lines"></i></span><span>Read the paper</span></a>
 		<a type="button" class="btn btn-lg variant-filled-primary" href="https://github.com/dacharya64/FatalFrequenciesFrontend"
 			><span><i class="fa-brands fa-github"></i></span><span>"Fatal Frequencies" Github</span></a>
 		<a type="button" class="btn btn-lg variant-filled-primary" href="https://www.devi-a.com/FatalFrequenciesFrontend/"
