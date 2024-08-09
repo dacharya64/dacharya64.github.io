@@ -23,7 +23,7 @@
 					<a href="http://linkedin.com/in/dacharya/"><i class="fa-brands fa-linkedin"></i></a>
 				</li>
 				<li>
-					<a href="https://github.com/dacharya64"><i class="fa-brands fa-github"></i></a>
+					<a href="https://github.com/devibri"><i class="fa-brands fa-github"></i></a>
 				</li>
 				<li>
 					<a href="mailto:dacharya64@proton.me"><i class="fa-solid fa-envelope"></i></a>

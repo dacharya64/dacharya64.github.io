@@ -8,9 +8,9 @@
 			role: 'Lead Researcher, Developer',
 			slug: 'ttrpg2.png',
 			description: 'A co-creative AI assistant for game masters of tabletop roleplaying games.',
-			url: 'https://www.devi-a.com/CompExamPortfolio/ttrpg.html',
-			github_url: 'https://github.com/dacharya64/FatalFrequenciesFrontend',
-			demo_url: 'https://www.devi-a.com/FatalFrequenciesFrontend'
+			url: 'https://devibri.github.io/CompExamPortfolio/ttrpg.html',
+			github_url: 'https://github.com/devibri/FatalFrequenciesFrontend',
+			demo_url: 'https://devibri.github.io/FatalFrequenciesFrontend'
 		},
 		{
 			id: 'warmer',
@@ -20,8 +20,8 @@
 			role: 'Unity Developer',
 			slug: 'warmer.png',
 			description: 'An NSF-funded game about climate change and human impacts on the environment using real environmental models.',
-			url: 'https://github.com/dacharya64/UCSCClimateGame',
-			demo_url: 'https://www.devi-a.com/ClimateGamePlayable/'
+			url: 'https://github.com/devibri/UCSCClimateGame',
+			demo_url: 'https://devibri.github.io/ClimateGamePlayable/'
 		},
 		{
 			id: 'vr',
@@ -41,8 +41,8 @@
 			name: 'VR / Physical Escape Room',
 			slug: 'escape.png',
 			description: "An escape room with asymmetrical puzzle-solving in physical and virtual reality spaces. Made for UCSC's Science Internship Program.",
-			url: 'https://www.devi-a.com/CompExamPortfolio/escaperoom.html',
-			demo_url: 'https://github.com/dacharya64/SIP-Unity-Escape-Room'
+			url: 'https://devibri.github.io/CompExamPortfolio/escaperoom.html',
+			demo_url: 'https://github.com/devibri/SIP-Unity-Escape-Room'
 		},
 		{
 			id: 'terasology',
