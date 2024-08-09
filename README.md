@@ -1,7 +1,7 @@
 # Devi's Portfolio Website
 
 ## About
-Website created with SvelteKit using [Skeleton](http://skeleton.dev)
+Portfolio website showing projects and publications. Created with SvelteKit using [Skeleton](http://skeleton.dev)
 
 ## Developing
 Start a development server with:
