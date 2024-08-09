@@ -249,9 +249,9 @@
 		in the game world as a creative support tool for new GMs.
 	</p>
 	<section class="grid grid-cols-1 lg:grid-cols-2 gap-8 project-button-container">
-		<a type="button" class="btn btn-lg variant-filled-primary" href="https://github.com/dacharya64/PhandelverProlog"
-			><span><i class="fa-brands fa-github"></i></span><span>"Lost Mines" Github</span></a>
-		<a type="button" class="btn btn-lg variant-filled-primary" href="https://www.devi-a.com/PhandelverProlog/index.html"><span><i class="fa-solid fa-play"></i></span><span>"Lost Mines" Demo</span></a>
+		<a type="button" class="btn btn-lg variant-filled-primary" href="https://github.com/devibri/PhandelverProlog"><span><i class="fa-brands fa-github"></i></span><span>"Lost Mines" Github</span></a>
+		<a type="button" class="btn btn-lg variant-filled-primary" href="https://devibri.github.io/PhandelverProlog/index.html"
+			><span><i class="fa-solid fa-play"></i></span><span>"Lost Mines" Demo</span></a>
 	</section>
 	<h2 class="h2">Part 2: "Fatal Frequencies"</h2>
 	<p>
@@ -279,9 +279,9 @@
 	<p>More about how this system works and future work for this project can be found in the paper linked below.</p>
 	<section class="grid grid-cols-1 min-[1900px]:grid-cols-3 gap-8 project-button-container">
 		<a type="button" class="btn btn-lg variant-filled-primary" href="papers/Shoelace_FDG23.pdf"><span><i class="fa-regular fa-file-lines"></i></span><span>Read the paper</span></a>
-		<a type="button" class="btn btn-lg variant-filled-primary" href="https://github.com/dacharya64/FatalFrequenciesFrontend"
+		<a type="button" class="btn btn-lg variant-filled-primary" href="https://github.com/devibri/FatalFrequenciesFrontend"
 			><span><i class="fa-brands fa-github"></i></span><span>"Fatal Frequencies" Github</span></a>
-		<a type="button" class="btn btn-lg variant-filled-primary" href="https://www.devi-a.com/FatalFrequenciesFrontend/"
+		<a type="button" class="btn btn-lg variant-filled-primary" href="https://devibri.github.io/FatalFrequenciesFrontend/"
 			><span><i class="fa-solid fa-play"></i></span><span>"Fatal Frequencies" Demo</span></a>
 	</section>
 </section>

@@ -183,8 +183,7 @@
 	</ul>
 	<section class="grid grid-cols-1 lg:grid-cols-3 gap-8 project-button-container">
 		<span></span>
-		<a type="button" class="btn btn-lg variant-filled-primary" href="https://github.com/dacharya64/SIP-Unity-Escape-Room"
-			><span><i class="fa-brands fa-github"></i></span><span>Project Github</span></a>
+		<a type="button" class="btn btn-lg variant-filled-primary" href="https://github.com/devibri/SIP-Unity-Escape-Room"><span><i class="fa-brands fa-github"></i></span><span>Project Github</span></a>
 		<span></span>
 	</section>
 </section>

@@ -24,7 +24,7 @@
 			<li><span>Getting the minigames into a core loop for the game, where the player can interact with the different games and see the resulting changes in global temperature</span></li>
 			<li>Polishing up and fixing any issues with existing minigames</li>
 			<li>
-				Hooking the game up to our <a class="anchor" href="https://github.com/dacharya64/UCSCClimateGame/tree/master/ClimatePrototypes/Assets/Scripts/Model">climate model</a> so that temperatures and precipitation
+				Hooking the game up to our <a class="anchor" href="https://github.com/devibri/UCSCClimateGame/tree/master/ClimatePrototypes/Assets/Scripts/Model">climate model</a> so that temperatures and precipitation
 				could use accurate simulated data
 			</li>
 			<li>General polish for game feel, including adding animations, sound effects, new art, etc</li>
@@ -97,8 +97,8 @@
 		</figure>
 	</div>
 	<section class="grid grid-cols-1 lg:grid-cols-2 gap-8 project-button-container">
-		<a type="button" class="btn btn-lg variant-filled-primary" href="https://github.com/dacharya64/UCSCClimateGame"><span><i class="fa-brands fa-github"></i></span><span>Project Github</span></a>
-		<a type="button" class="btn btn-lg variant-filled-primary" href="https://www.devi-a.com/ClimateGamePlayable/"><span><i class="fa-solid fa-gamepad"></i></span><span>Play now!</span></a>
+		<a type="button" class="btn btn-lg variant-filled-primary" href="https://github.com/devibri/UCSCClimateGame"><span><i class="fa-brands fa-github"></i></span><span>Project Github</span></a>
+		<a type="button" class="btn btn-lg variant-filled-primary" href="https://devibri.github.io/ClimateGamePlayable/"><span><i class="fa-solid fa-gamepad"></i></span><span>Play now!</span></a>
 	</section>
 </section>
 <Footer />
