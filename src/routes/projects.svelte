@@ -90,7 +90,7 @@
 
 <section class="projects">
 	<h1 class="h1">Projects</h1>
-	<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+	<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
 		{#each projects as project}
 			{#if project.priority == true}
 				<div class="card card-hover flex flex-col">
