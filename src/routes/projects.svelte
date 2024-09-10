@@ -1,5 +1,17 @@
 <script lang="ts">
 	let projects = [
+		// {
+		// 	id: 'aai',
+		// 	priority: true,
+		// 	tag: 'research',
+		// 	name: 'Applied AI Games + Tooling',
+		// 	role: 'Senior Data Scientist',
+		// 	slug: 'aai.jpg',
+		// 	description: "Working on tools for games and creatives on Zynga's Applied AI Team",
+		// 	url: '',
+		// 	github_url: 'https://github.com/devibri/FatalFrequenciesFrontend',
+		// 	demo_url: 'https://devibri.github.io/FatalFrequenciesFrontend'
+		// },
 		{
 			id: 'ttrpg',
 			priority: true,
@@ -23,24 +35,24 @@
 			url: 'https://github.com/devibri/UCSCClimateGame',
 			demo_url: 'https://devibri.github.io/ClimateGamePlayable/'
 		},
-		{
-			id: 'vr',
-			priority: false,
-			tag: 'research',
-			role: 'Researcher, Unity Developer',
-			name: 'Spatial Cognition in VR',
-			slug: 'vr.jpg',
-			description: 'Studying the effects of teleporting in virtual reality using triangle completion tasks in Unity enviroments.',
-			url: 'https://dr.lib.iastate.edu/entities/publication/b2750a5d-70af-4fd3-81ce-69c2f338effd'
-		},
+		// {
+		// 	id: 'vr',
+		// 	priority: false,
+		// 	tag: 'research',
+		// 	role: 'Researcher, Unity Developer',
+		// 	name: 'Spatial Cognition in VR',
+		// 	slug: 'vr.jpg',
+		// 	description: 'Studying the effects of teleporting in virtual reality using triangle completion tasks in Unity enviroments.',
+		// 	url: 'https://dr.lib.iastate.edu/entities/publication/b2750a5d-70af-4fd3-81ce-69c2f338effd'
+		// },
 		{
 			id: 'escaperoom',
-			priority: true,
+			priority: false,
 			tag: 'research',
 			role: 'Researcher, Mentor',
 			name: 'VR / Physical Escape Room',
 			slug: 'escape.png',
-			description: "An escape room with asymmetrical puzzle-solving in physical and virtual reality spaces. Made for UCSC's Science Internship Program.",
+			description: "An escape room made in Unity with asymmetrical puzzle-solving in physical and virtual reality spaces. Made at UCSC's Science Internship Program.",
 			url: 'https://devibri.github.io/CompExamPortfolio/escaperoom.html',
 			demo_url: 'https://github.com/devibri/SIP-Unity-Escape-Room'
 		},
@@ -74,25 +86,27 @@
 			slug: 'rs2.png',
 			description: 'A strategy game where the player fights to survive against killer robots in a war-torn Russia. Made with a team at Mustachio Games. Shown at Boston Festival of Indie Games, 2014.',
 			url: 'https://mustachiogames.itch.io/red-survivor'
-		},
-		{
-			id: 'if',
-			priority: false,
-			tag: 'games',
-			name: 'The Abyss and The Ark',
-			role: 'Writer',
-			slug: 'abyss.jpg',
-			description: 'Authored and co-authored several interactive fiction games, including The Abyss--a surreal exploration of the mind--and The Ark--a puzzle game set aboard a derelict spaceship.',
-			url: 'https://textadventures.co.uk/games/view/ob1-nceir0a6dpocknuxyw/the-abyss'
 		}
+		// {
+		// 	id: 'if',
+		// 	priority: false,
+		// 	tag: 'games',
+		// 	name: 'The Abyss and The Ark',
+		// 	role: 'Writer',
+		// 	slug: 'abyss.jpg',
+		// 	description: 'Authored and co-authored several interactive fiction games, including The Abyss--a surreal exploration of the mind--and The Ark--a puzzle game set aboard a derelict spaceship.',
+		// 	url: 'https://textadventures.co.uk/games/view/ob1-nceir0a6dpocknuxyw/the-abyss'
+		// }
 	];
 </script>
 
 <section class="projects">
 	<h1 class="h1">Projects</h1>
-	<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-		{#each projects as project}
-			{#if project.priority == true}
+	<section class="other-projects">
+		<!-- <h1 class="h1">Other Games</h1> -->
+		<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+			{#each projects as project}
+				<!-- {#if project.priority == true} -->
 				<div class="card card-hover flex flex-col">
 					<img src="/img/{project.slug}" class="rounded-lg w-full h-60 object-cover" alt="Thumbnail for project {project.name}" />
 					<section class="p-6">
@@ -103,43 +117,48 @@
 					<footer class="card-footer mt-auto">
 						<div class="cardbuttoncontainer">
 							<div>
-								<a href="./{project.id}" type="button" class="btn variant-filled cardbutton"><span><i class="fa-solid fa-book" /></span><span>Read More</span></a>
-							</div>
-							<br />
-							<div>
-								{#if project.demo_url}
-									<a href={project.demo_url} type="button" class="btn variant-filled cardbutton"><span><i class="fa-solid fa-gamepad"></i></span><span>Play Now</span></a>
+								{#if project.url != ''}
+									<a href={project.url} type="button" class="btn variant-filled cardbutton"><span>Check it out</span><span><i class="fa-solid fa-circle-chevron-right"></i></span></a>
 								{/if}
 							</div>
 						</div>
 					</footer>
 				</div>
-			{/if}
-		{/each}
-	</div>
-
-	<section class="other-projects">
-		<!-- <h1 class="h1">Other Games</h1> -->
-		<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+				<!-- {/if} -->
+			{/each}
+		</div>
+		<!-- <h1 class="h1">Other Projects</h1>
+		<div class="grid grid-cols-1 gap-4">
 			{#each projects as project}
 				{#if project.priority == false}
-					<div class="card card-hover flex flex-col">
-						<img src="/img/{project.slug}" class="rounded-lg w-full h-60 object-cover" alt="Thumbnail for project {project.name}" />
-						<section class="p-6">
+					
+					<div class="grid grid-cols-4 gap-4">
+						<div class="col-span-1"><img src="/img/{project.slug}" class="rounded-lg w-full h-60 object-cover" alt="Thumbnail for project {project.name}" /></div>
+						<div class="col-span-3 description">
 							<h3 class="h3">{project.name}</h3>
 							<h4 class="h4"><strong>{project.role}</strong></h4>
 							<p>{project.description}</p>
-						</section>
-						<footer class="card-footer mt-auto">
-							<div class="cardbuttoncontainer">
-								<div>
-									<a href={project.url} type="button" class="btn variant-filled cardbutton"><span>Check it out</span><span><i class="fa-solid fa-circle-chevron-right"></i></span></a>
-								</div>
-							</div>
-						</footer>
+							{#if project.url != ''}
+								<a href={project.url} type="button" class="btn variant-filled cardbutton"><span>Check it out</span><span><i class="fa-solid fa-circle-chevron-right"></i></span></a>
+							{/if}
+						</div>
+					</div>
+					<div class="list-dl">
+						<div class="article">
+							<span class="flex-auto">
+								<span></span>
+								<span><section class="p-6"></section></span>
+							</span>
+							<span
+								><footer class="card-footer mt-auto">
+									<div class="cardbuttoncontainer">
+										<div></div>
+									</div>
+								</footer></span>
+						</div>
 					</div>
 				{/if}
 			{/each}
-		</div>
+		</div> -->
 	</section>
 </section>
