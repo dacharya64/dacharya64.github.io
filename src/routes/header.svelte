@@ -26,7 +26,7 @@
 					<a href="https://github.com/devibri"><i class="fa-brands fa-github"></i></a>
 				</li>
 				<li>
-					<a href="mailto:dacharya64@proton.me"><i class="fa-solid fa-envelope"></i></a>
+					<a href="mailto:devi@devi.rocks"><i class="fa-solid fa-envelope"></i></a>
 				</li>
 				<li><LightSwitch /></li>
 			</ul>
